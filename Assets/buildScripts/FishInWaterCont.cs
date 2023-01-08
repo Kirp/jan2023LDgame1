@@ -5,7 +5,7 @@ using UnityEngine;
 public class FishInWaterCont : MonoBehaviour
 {
 
-    private float swimSpeed = 8f;
+    private float swimSpeed = 9f;
 
     private void Update()
     {

@@ -14,11 +14,18 @@ public class TossFishCont : MonoBehaviour
         GetComponent<CapsuleCollider2D>().enabled = true;
     }
 
+    private void Update()
+    {
+        if(transform.position.y < -6)
+        {
+            Destroy(gameObject);
+        }
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
     }
 }

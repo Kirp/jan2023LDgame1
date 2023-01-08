@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6371330067212580337}
   - component: {fileID: 6371330067212580338}
   - component: {fileID: 6371330067212580342}
-  m_Layer: 7
+  m_Layer: 4
   m_Name: fishGreen
   m_TagString: swimmer
   m_Icon: {fileID: 0}
@@ -75,10 +75,10 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ec3ef2f28a2d0164fa9ffff962a61189, type: 3}
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300000, guid: 285993ee0061fb640a294c9a1fc5989a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.28, y: 1.28}
@@ -123,7 +123,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.46
+  m_Radius: 0.37
 --- !u!114 &6371330067212580342
 MonoBehaviour:
   m_ObjectHideFlags: 0

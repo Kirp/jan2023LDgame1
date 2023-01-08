@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - toss item
+  - swimmer
   layers:
   - Default
   - TransparentFX
@@ -13,8 +14,8 @@ TagManager:
   - Water
   - UI
   - Tossed in air
-  - 
-  - 
+  - Stage
+  - Blocker
   - 
   - 
   - 

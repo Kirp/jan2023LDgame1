@@ -20,13 +20,6 @@ public class PowerBarCont : MonoBehaviour
     {
         
     }
-
-    private void Awake()
-    {
-        Debug.Log("awake!");
-        //meterMove = true;
-    }
-
     public void StartMeter()
     {
         powerPointer.transform.localPosition = startUpPosition;
